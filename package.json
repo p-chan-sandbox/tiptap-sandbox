@@ -1,0 +1,36 @@
+{
+  "name": "next-template",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "P-Chan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/p-chan-sandbox/next-template.git"
+  },
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "fix": "eslint . --fix && prettier --write .",
+    "lint": "prettier --check . && eslint .",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@stardust-configs/browserslist-config": "0.1.0",
+    "@stardust-configs/eslint-config": "0.12.0",
+    "@stardust-configs/prettier-config": "0.3.0",
+    "@stardust-configs/tsconfig": "0.4.0",
+    "@types/node": "20.10.6",
+    "@types/react": "18.2.46",
+    "@types/react-dom": "18.2.18",
+    "eslint": "8.56.0",
+    "prettier": "3.1.1",
+    "typescript": "5.3.3"
+  },
+  "private": true
+}

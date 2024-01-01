@@ -1,0 +1,8 @@
+{
+  "extends": "@stardust-configs/tsconfig/next.json",
+  "compilerOptions": {
+    "plugins": [{ "name": "next" }]
+  },
+  "include": ["**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "next-env.d.ts"],
+  "exclude": ["node_modules"]
+}

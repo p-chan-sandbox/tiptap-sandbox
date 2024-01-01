@@ -1,0 +1,8 @@
+# lockfile
+pnpm-lock.yaml
+
+# output
+.next
+
+# types
+next-env.d.ts

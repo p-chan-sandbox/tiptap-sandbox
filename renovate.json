@@ -1,0 +1,6 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>stardust-configs/renovate-config:app"],
+  "assignees": ["p-chan"],
+  "labels": ["dependencies"]
+}
